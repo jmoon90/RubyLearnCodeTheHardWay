@@ -1,14 +1,13 @@
 #shorter version
 
-first, second = ARGV
+first, second = ARGV 
 
 puts "The script is called: {$0}"
 puts "What should the first argument varaible be?"
  first = STDIN.gets.chomp()
-puts "Your first variable is: #{first}"
 puts "What should the second argument varaible be?"
- first = STDIN.gets.chomp()
-puts "Your second variable is: #{second}"
+ second = STDIN.gets.chomp()
+puts first + second
 
 
 #longer version
